@@ -6,28 +6,6 @@ body {
     position: relative;
   }
 
-.custom_cursor{
-  position: fixed;
-    width: 1vw;
-    height: 1vw;
-    background-color: #111111;
-    border: 0.1vw solid #f9f9f9;
-    border-radius: 50%;
-    transition: width 0.4s, height 0.4s, border-color 0.4s;
-    z-index: 999;
-}
-
-.clicked{
-  cursor: pointer;
-}
-
-.clicked:hover .custom_cursor{
-  width: 2vw;
-  height: 2vw;
-  background-color: transparent;
-  border: 0.1vw solid #f9f9f9;
-}
-
 .block_1{
     margin: 0 auto;
     display: grid;
