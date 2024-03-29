@@ -76,9 +76,3 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-
-    //двиганье объектов
-    $(document).ready(function(){
-        $(".draggable").draggable(); 
-    });
